@@ -29,9 +29,10 @@
 - **Bootstrap 5** + **Bootstrap Icons** – стилизация и иконки
 - **Axios** – HTTP-клиент
 
----
 
 ## 📁 Структура проекта
+
+```bash
 workout-project/
 ├── workout-tracker/
 │   ├── app/
@@ -56,8 +57,7 @@ workout-project/
 │   └── vite.config.js
 │
 └── README.md
-
----
+```
 
 ## 🚀 Установка и запуск
 
