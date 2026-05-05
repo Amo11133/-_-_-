@@ -33,28 +33,29 @@
 
 ## 📁 Структура проекта
 workout-project/
-├── workout-tracker/ # бэкенд (Express)
-│ ├── app/
-│ │ ├── config/ # конфигурация БД
-│ │ ├── controllers/ # обработчики запросов
-│ │ ├── models/ # модели Sequelize
-│ │ ├── routes/ # API-маршруты
-│ ├── .env # переменные окружения (не в Git)
-│ ├── server.js # точка входа
-│ └── package.json
-├── workout-frontend/ # фронтенд (Vue 3)
-│ ├── src/
-│ │ ├── views/ # страницы (Home, Calendar, Profile...)
-│ │ ├── stores/ # Pinia хранилища
-│ │ ├── services/ # API-вызовы
-│ │ ├── App.vue
-│ │ └── main.js
-│ ├── public/videos/ # локальные видео упражнений
-│ ├── package.json
-│ └── vite.config.js
-└── README.md # этот файл
-
-text
+├── workout-tracker/
+│   ├── app/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   └── routes/
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+│
+├── workout-frontend/
+│   ├── src/
+│   │   ├── views/
+│   │   ├── stores/
+│   │   ├── services/
+│   │   ├── App.vue
+│   │   └── main.js
+│   ├── public/
+│   │   └── videos/
+│   ├── package.json
+│   └── vite.config.js
+│
+└── README.md
 
 ---
 
