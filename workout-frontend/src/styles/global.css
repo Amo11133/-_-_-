@@ -1,0 +1,53 @@
+/* Тёмная спортивная тема */
+body {
+  background: #0a0f1c;
+  color: #e0e0e0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Навбар */
+.navbar-dark.bg-dark {
+  background-color: #111827 !important;
+  border-bottom: 2px solid #f97316;
+}
+
+.btn-primary {
+  background-color: #f97316;
+  border-color: #f97316;
+}
+.btn-primary:hover {
+  background-color: #ea580c;
+}
+
+.card-exercise {
+  background: #1e293b;
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card-exercise:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.3);
+}
+
+/* Кастомные цвета */
+.text-orange {
+  color: #f97316;
+}
+
+body {
+  background: url('/images/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+/* Полупрозрачный оверлей для читаемости текста */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
